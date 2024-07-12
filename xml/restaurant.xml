@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Restaurants SYSTEM "restaurant.dtd">
+<Restaurants>
+  <Restaurant>
+    <infos>
+      <coordonnees>+221 78 348 06 01</coordonnees>
+      <nom>Belle Vue</nom>
+      <adresse>123 Rue de la République, 75001 Dakar</adresse>
+      <nomRestaurateur>Modou DIOP</nomRestaurateur>
+      <descriptionRestaurant>
+        <paragraphe>Un restaurant élégant avec une ambiance chaleureuse.</paragraphe>
+        <paragraphe>
+          <image src="C:\xampp\htdocs\projet\image\images.jpeg" position="right"/>
+        </paragraphe>
+      </descriptionRestaurant>
+    </infos>
+    <carte>
+      <plat type="entree" prix="6000" devise="frcs">
+        <descriptionPlat>
+          <paragraphe>Salade chinoise.</paragraphe>
+        </descriptionPlat>
+      </plat>
+      <plat type="plat" prix="10000" devise="frcs">
+        <descriptionPlat>
+          <paragraphe>Poulet sauté.</paragraphe>
+        </descriptionPlat>
+      </plat>
+      <plat type="dessert" prix="4000" devise="frcs">
+        <descriptionPlat>
+          <paragraphe>beignet et friture.</paragraphe>
+        </descriptionPlat>
+      </plat>
+    </carte>
+   <menus>
+            <menu titre="Menu Belle Vue" prix="18000" devise="frcs">
+                <descriptionMenu>
+                    <paragraphe>Menu complet pour découvrir les saveurs du restaurant</paragraphe>
+                </descriptionMenu>
+            </menu>
+            <menu titre="Menu Enfant" prix="12000" devise="frcs">
+                <descriptionMenu>
+                    <paragraphe>Menu spécial pour les plus jeunes gourmands</paragraphe>
+                </descriptionMenu>
+            </menu>
+        </menus>
+  </Restaurant>
+  
+  <Restaurant>
+    <infos>
+      <coordonnees>+221 78 186 76 67 </coordonnees>
+      <nom>La Brasserie</nom>
+      <adresse>45 Avenue des Champs-Élysées, 75008 Dakar</adresse>
+      <nomRestaurateur>Marie Leclerc</nomRestaurateur>
+      <descriptionRestaurant>
+        <paragraphe> Découvrez notre cuisine gastronomique dans un cadre idyllique.</paragraphe>
+        <paragraphe>
+          <image src="C:\xampp\htdocs\projet\image\images-_1_.png" position="right"/>
+        </paragraphe>
+      </descriptionRestaurant>
+    </infos>
+    <carte>
+      <plat type="entree" prix="4500" devise="frcs">
+        <descriptionPlat>
+          <paragraphe>Soupe à l'oignon gratinée.</paragraphe>
+        </descriptionPlat>
+      </plat>
+      <plat type="plat" prix="8000" devise="frcs">
+        <descriptionPlat>
+          <paragraphe>Magret de canard aux figues.</paragraphe>
+        </descriptionPlat>
+      </plat>
+      <plat type="dessert" prix="2000" devise="frcs">
+        <descriptionPlat>
+          <paragraphe>Crepe au chocolat.</paragraphe>
+        </descriptionPlat>
+      </plat>
+    </carte>
+    <menus>
+            <menu titre="Menu Découverte" prix="17000" devise="frcs">
+                <descriptionMenu>
+                    <paragraphe>Menu complet pour découvrir les saveurs du restaurant</paragraphe>
+                </descriptionMenu>
+            </menu>
+            <menu titre="Menu Enfant" prix="8000" devise="frcs">
+                <descriptionMenu>
+                    <paragraphe>Menu spécial pour les plus jeunes gourmands</paragraphe>
+                </descriptionMenu>
+            </menu>
+        </menus>
+  </Restaurant>
+  
+  <Restaurant>
+    <infos>
+      <coordonnees>+221 77 540 13 41</coordonnees>
+      <nom>Le Bistrot</nom>
+      <adresse>78 Rue Mouffetard, 75005 Dakar</adresse>
+      <nomRestaurateur>Pierre Martin</nomRestaurateur>
+      <descriptionRestaurant>
+        <paragraphe>Profitez d'une atmosphère authentique et de recettes traditionnelles revisitées.</paragraphe>
+        <paragraphe>
+          <image src="C:\xampp\htdocs\projet\image\image.png" position="right"/> 
+        </paragraphe>
+      </descriptionRestaurant>
+    </infos>
+    <carte>
+      <plat type="entree" prix="5000" devise="frcs">
+        <descriptionPlat>
+          <paragraphe>Assiette de charcuterie.</paragraphe>
+        </descriptionPlat>
+      </plat>
+      <plat type="plat" prix="9000" devise="frcs">
+        <descriptionPlat>
+          <paragraphe>Poisson braisé.</paragraphe>
+        </descriptionPlat>
+      </plat>
+      <plat type="dessert" prix="3000" devise="frcs">
+        <descriptionPlat>
+          <paragraphe>Glace a la vanille.</paragraphe>
+        </descriptionPlat>
+      </plat>
+    </carte>
+   <menus>
+            <menu titre="Menu Bistrot" prix="17000" devise="frcs">
+                <descriptionMenu>
+                    <paragraphe>Menu complet pour découvrir les saveurs du restaurant</paragraphe>
+                </descriptionMenu>
+            </menu>
+            <menu titre="Menu Enfant" prix="10000" devise="frcs">
+                <descriptionMenu>
+                    <paragraphe>Menu spécial pour les plus jeunes gourmands</paragraphe>
+                </descriptionMenu>
+            </menu>
+        </menus>
+  </Restaurant>
+  
+</Restaurants>

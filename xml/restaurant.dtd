@@ -1,0 +1,33 @@
+<!ENTITY image1 SYSTEM "C:\xampp\htdocs\projet\image.png" NDATA png>
+<!NOTATION png SYSTEM "/usr/bin/png.exe">
+
+<!ELEMENT Restaurants (Restaurant*)>
+<!ELEMENT Restaurant (infos, carte, menus?)>
+<!ELEMENT infos (coordonnees, nom, adresse, nomRestaurateur, descriptionRestaurant*)>
+<!ELEMENT coordonnees (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT nomRestaurateur (#PCDATA)>
+<!ELEMENT descriptionRestaurant (paragraphe*)>
+<!ELEMENT paragraphe (#PCDATA|image|texteImportant|liste)*>
+<!ELEMENT image EMPTY>
+<!ATTLIST image
+  src ENTITY #REQUIRED
+  position CDATA #REQUIRED>
+<!ELEMENT texteImportant (#PCDATA)>
+<!ELEMENT liste (elementListe*)>
+<!ELEMENT elementListe (#PCDATA)>
+<!ELEMENT carte (plat+)>
+<!ELEMENT plat (descriptionPlat)>
+<!ATTLIST plat
+  type (entree|plat|dessert|fromage) #REQUIRED
+  prix CDATA #REQUIRED
+  devise (fcfa|euro|dollar) #REQUIRED>
+<!ELEMENT descriptionPlat (paragraphe)>
+<!ELEMENT menus (menu*)>
+<!ELEMENT menu (descriptionMenu)>
+<!ATTLIST menu
+  titre CDATA #REQUIRED
+  prix CDATA #REQUIRED
+  devise (fcfa|euro|dollar) #REQUIRED>
+<!ELEMENT descriptionMenu (paragraphe)>

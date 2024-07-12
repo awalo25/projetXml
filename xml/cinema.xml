@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cinema SYSTEM "C:\xampp\htdocs\projet\xml\cinema.dtd">
+<Cinema>
+  <Film>
+    <titre>Les Brigades du Tigre</titre>
+    <duree>2h 5min</duree>
+    <genre>Policier</genre>
+    <realisateur>Jérôme Cornuau</realisateur>
+    <acteurs>
+      <acteur>C. Cornillac</acteur>
+      <acteur>D. Kruger</acteur>
+      <acteur>E. Baer</acteur>
+    </acteurs>
+    <annee>2005</annee>
+    <langue>VF</langue>
+    <description>
+      Les aventures du commissaire Valentin et des inspecteurs Terrasson et Pujol, membres des Brigades mobiles, corps spécial de la police française créé avant la Première Guerre mondiale.
+    </description>
+    <horaires>
+      <horaire>
+        <jours>
+          <jour>Mer</jour>
+          <jour>Sam</jour>
+        </jours>
+        <heures>
+          <heure>14:00</heure>
+          <heure>16:40</heure>
+          <heure>19:40</heure>
+          <heure>22:10</heure>
+        </heures>
+      </horaire>
+      <horaire>
+        <jours>
+          <jour>Jeu</jour>
+          <jour>Ven</jour>
+          <jour>Lun</jour>
+          <jour>Mar</jour>
+        </jours>
+        <heures>
+          <heure>14:00</heure>
+          <heure>19:40</heure>
+          <heure>22:10</heure>
+        </heures>
+      </horaire>
+      <horaire>
+        <jours>
+          <jour>Dim</jour>
+        </jours>
+        <heures>
+          <heure>10:20</heure>
+          <heure>14:00</heure>
+          <heure>16:40</heure>
+          <heure>20:20</heure>
+        </heures>
+      </horaire>
+    </horaires>
+    <notes>
+      <presse>3/5</presse>
+      <spectateur>4/5</spectateur>
+    </notes>
+  </Film>
+  
+  <Film>
+    <titre>L'ombre des roses</titre>
+    <duree>1h 45min</duree>
+    <genre>Drame</genre>
+    <realisateur>Marie Dupont</realisateur>
+    <acteurs>
+      <acteur>Jean Dujardin</acteur>
+      <acteur>Marion Cotillard</acteur>
+    </acteurs>
+    <annee>2019</annee>
+    <langue>VF</langue>
+    <description>
+      Une histoire touchante d'amour et de rédemption dans les rues de Paris.
+    </description>
+    <horaires>
+      <horaire>
+        <jours>
+          <jour>Lun</jour>
+          <jour>Mar</jour>
+        </jours>
+        <heures>
+          <heure>18:00</heure>
+          <heure>21:00</heure>
+        </heures>
+      </horaire>
+      <horaire>
+        <jours>
+          <jour>Sam</jour>
+          <jour>Dim</jour>
+        </jours>
+        <heures>
+          <heure>16:00</heure>
+          <heure>19:00</heure>
+        </heures>
+      </horaire>
+    </horaires>
+    <notes>
+      <presse>4/5</presse>
+      <spectateur>4.5/5</spectateur>
+    </notes>
+  </Film>
+  
+  <Film>
+    <titre>Le Dernier Guerrier</titre>
+    <duree>2h 10min</duree>
+    <genre>Aventure</genre>
+    <realisateur>Luc Besson</realisateur>
+    <acteurs>
+      <acteur>Vincent Cassel</acteur>
+      <acteur>Eva Green</acteur>
+    </acteurs>
+    <annee>2017</annee>
+    <langue>VF</langue>
+    <description>
+      Un guerrier légendaire part en quête pour sauver son royaume des forces obscures.
+    </description>
+    <horaires>
+      <horaire>
+        <jours>
+          <jour>Mar</jour>
+          <jour>Jeu</jour>
+        </jours>
+        <heures>
+          <heure>17:00</heure>
+          <heure>20:00</heure>
+        </heures>
+      </horaire>
+      <horaire>
+        <jours>
+          <jour>Ven</jour>
+          <jour>Sam</jour>
+        </jours>
+        <heures>
+          <heure>15:00</heure>
+          <heure>19:00</heure>
+        </heures>
+      </horaire>
+    </horaires>
+    <notes>
+      <presse>3.5/5</presse>
+      <spectateur>4/5</spectateur>
+    </notes>
+  </Film>
+  
+  <Film>
+    <titre>Rire et Chansons</titre>
+    <duree>1h 30min</duree>
+    <genre>Comédie</genre>
+    <realisateur>Pierre Richard</realisateur>
+    <acteurs>
+      <acteur>Gad Elmaleh</acteur>
+      <acteur>Florence Foresti</acteur>
+    </acteurs>
+    <annee>2020</annee>
+    <langue>VF</langue>
+    <description>
+      Une comédie hilarante sur les hauts et les bas d'une troupe de théâtre amateur.
+    </description>
+    <horaires>
+      <horaire>
+        <jours>
+          <jour>Mer</jour>
+          <jour>Ven</jour>
+        </jours>
+        <heures>
+          <heure>13:00</heure>
+          <heure>15:30</heure>
+        </heures>
+      </horaire>
+      <horaire>
+        <jours>
+          <jour>Sam</jour>
+          <jour>Dim</jour>
+        </jours>
+        <heures>
+          <heure>12:00</heure>
+          <heure>14:30</heure>
+        </heures>
+      </horaire>
+    </horaires>
+    <notes>
+      <presse>4.5/5</presse>
+      <spectateur>5/5</spectateur>
+    </notes>
+  </Film>
+  
+  <Film>
+    <titre>L'Énigme de l'Orient</titre>
+    <duree>2h 20min</duree>
+    <genre>Thriller</genre>
+    <realisateur>François Ozon</realisateur>
+    <acteurs>
+      <acteur>Omar Sy</acteur>
+      <acteur>Sophie Marceau</acteur>
+    </acteurs>
+    <annee>2021</annee>
+    <langue>VF</langue>
+    <description>
+      Un détective privé enquête sur une série de meurtres mystérieux dans une ville de l'Est.
+    </description>
+    <horaires>
+      <horaire>
+        <jours>
+          <jour>Jeu</jour>
+          <jour>Sam</jour>
+        </jours>
+        <heures>
+          <heure>17:00</heure>
+          <heure>20:30</heure>
+        </heures>
+      </horaire>
+      <horaire>
+        <jours>
+          <jour>Lun</jour>
+          <jour>Mar</jour>
+        </jours>
+        <heures>
+          <heure>18:00</heure>
+          <heure>21:00</heure>
+        </heures>
+      </horaire>
+    </horaires>
+    <notes>
+      <presse>4/5</presse>
+      <spectateur>4.5/5</spectateur>
+    </notes>
+  </Film>
+</Cinema>
